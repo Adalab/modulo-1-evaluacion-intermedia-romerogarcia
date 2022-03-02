@@ -1,0 +1,54 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+:root {
+  --green: #4a4a4a;
+  --blue: #3cdbc0;
+  --white: #ffffff;
+  font-size: 16px;
+  font-family: "Rubik", sans-serif;
+}
+
+.header {
+  font-family: "Rubik", sans-serif;
+  position: fixed;
+  width: 100%;
+  background-color: var(--white);
+}
+
+.logo-adalab {
+  width: 155px;
+}
+
+.list-nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.item-nav {
+  font-family: "Rubik", sans-serif;
+  text-decoration: none;
+  color: var(--green);
+  font-size: 16px;
+}
+
+.main {
+  background-color: var(--blue);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 2rem 0;
+}
+
+.tex-main {
+  color: var(--white);
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+  font-size: 40px;
+}
