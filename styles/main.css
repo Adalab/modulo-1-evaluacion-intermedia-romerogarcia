@@ -43,8 +43,9 @@
 
 .item-nav {
   list-style: none;
+  display: flex;
   justify-content: space-evenly;
-  word-spacing: 20px;
+  white-space: calc(20px);
 }
 
 .main {
@@ -62,5 +63,19 @@
   color: var(--white);
   text-align: center;
   font-family: "Rubik", sans-serif;
-  font-size: 40px;
+  font-size: 30px;
+}
+@media all and (min-width: 768px) {
+  .header {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 30px;
+  }
+  .logo-adalab {
+    transform: none;
+  }
+
+  .text-main {
+    font-size: 40px;
+  }
 }
